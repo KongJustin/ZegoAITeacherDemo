@@ -193,7 +193,7 @@ int main (int argc, char** argv) {
     }
     
     printf("\n========================================\n");
-    printf("AppID: %d\n", g_appId);
+    printf("AppID: %u\n", g_appId);
     printf("SDK Version: %s\n", LIVEROOM::GetSDKVersion());
     printf("VE Version: %s\n", LIVEROOM::GetSDKVersion2());
 
